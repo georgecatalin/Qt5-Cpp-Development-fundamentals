@@ -1,6 +1,9 @@
 # Qt5-Cpp-Development-fundamentals
 Code practice from the Udemy course "Qt 5 C++ GUI Development For Beginners : The Fundamentals" authored by Daniel Gakwaya
 
+https://www.udemy.com/course/qt-c-gui-tutorial-for-complete-beginners/
+
+
 ## What you'll learn
 * The fundamentals of working with Qt to build C++ Gui Applications
 * Working with Qt Widget Classes
