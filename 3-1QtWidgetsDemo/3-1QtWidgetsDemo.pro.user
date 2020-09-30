@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.12.4, 2020-09-30T19:49:10. -->
+<!-- Written by QtCreator 4.12.4, 2020-09-30T20:14:33. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -306,8 +306,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/georgeca/Qt Projects/3-1QtWidgetsDemo/3-1QtWidgetsDemo.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/georgeca/Qt Projects/3-1QtWidgetsDemo/3-1QtWidgetsDemo.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">3-1QtWidgetsDemo2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/georgeca/Qt-Training/Qt5-Cpp-Development-fundamentals/3-1QtWidgetsDemo/3-1QtWidgetsDemo.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/georgeca/Qt-Training/Qt5-Cpp-Development-fundamentals/3-1QtWidgetsDemo/3-1QtWidgetsDemo.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>

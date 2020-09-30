@@ -17,13 +17,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    widget.cpp
+    rockwidget.cpp
 
 HEADERS += \
-    widget.h
+    rockwidget.h
 
-FORMS += \
-    widget.ui
+FORMS +=
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
