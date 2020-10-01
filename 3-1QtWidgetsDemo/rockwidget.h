@@ -9,6 +9,10 @@ class RockWidget : public QWidget
     Q_OBJECT
 public:
     explicit RockWidget(QWidget *parent = nullptr);
+private slots:
+    void buttonClicked();
+private:
+    QSize sizeHint() const;
 
 signals:
 
