@@ -7,6 +7,15 @@
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
 {
+   setUI();
+}
+
+Widget::~Widget()
+{
+}
+
+void Widget::setUI()
+{
     QFont labelFont("Times",10,QFont::Bold);
     QLabel * thisLabel=new QLabel("This is my text",this);
     thisLabel->setFont(labelFont);
@@ -77,9 +86,41 @@ Widget::Widget(QWidget *parent)
         myTextEdit->redo();
     });
 
-}
 
-Widget::~Widget()
-{
+    //Set text and html to the text edit
+    QPushButton * plainTextButton =new QPushButton("Plain Text",this);
+    plainTextButton->setMinimumSize(100,25);
+    plainTextButton->move(10,310);
+    connect(plainTextButton,&QPushButton::clicked,[=]()
+    {
+        myTextEdit->setPlainText("Every journey starts with a single step.Johnnie Walker");
+    });
+
+    QPushButton * htmlTextButton=new QPushButton("Html Text",this);
+    htmlTextButton->setMinimumSize(100,25);
+    htmlTextButton->move(110,310);
+    connect(htmlTextButton,&QPushButton::clicked,[=]()
+    {
+        myTextEdit->setHtml("<b>Be</b> patient.");
+    });
+
+    //Get text and html from textEdit
+    QPushButton * getPlainTextButton=new QPushButton("Get Plain Text",this);
+    getPlainTextButton->setMinimumSize(100,25);
+    getPlainTextButton->move(10,350);
+    connect(getPlainTextButton,&QPushButton::clicked,[=]()
+    {
+        qDebug()<<"The text from the text edit widget is :"<< myTextEdit->toPlainText();
+    });
+
+    QPushButton * getHTMLButton=new QPushButton("Get HTML",this);
+    getHTMLButton->setMinimumSize(100,25);
+    getHTMLButton->move(110,350);
+    connect(getHTMLButton,&QPushButton::clicked,[=]()
+    {
+        qDebug()<<"The HTML from the text edit widget is :"<<myTextEdit->toHtml();
+    });
+
+    setFixedSize(400,400);
 }
 

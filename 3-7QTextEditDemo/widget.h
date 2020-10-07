@@ -10,5 +10,8 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
+
+private:
+    void setUI();
 };
 #endif // WIDGET_H
