@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>images/Zizou.jpg</file>
+    </qresource>
+</RCC>
