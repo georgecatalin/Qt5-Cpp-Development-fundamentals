@@ -16,14 +16,12 @@ Widget::Widget(QWidget *parent)
     //Add the widgets to the layout
     gLayout->addWidget(ui->oneButton,0,0);
     gLayout->addWidget(ui->twoButton,0,1);
-    gLayout->addWidget(ui->threeButton,0,2);
+    gLayout->addWidget(ui->threeButton,0,2,2,1);
 
     gLayout->addWidget(ui->fourButton,1,0);
     gLayout->addWidget(ui->fiveButton,1,1);
-    gLayout->addWidget(ui->sixButton,1,2);
 
-    gLayout->addWidget(ui->sevenButton,2,0);
-    gLayout->addWidget(ui->eightButton,2,1);
+    gLayout->addWidget(ui->sevenButton,2,0,1,2);
     gLayout->addWidget(ui->nineButton,2,2);
 
 
