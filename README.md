@@ -13,3 +13,6 @@ https://www.udemy.com/course/qt-c-gui-tutorial-for-complete-beginners/
 * Working with Networks to fetch HTTP Data
 * Working with the File System
 * Model View Architecture
+
+
+![Technology](/cpp-qt.jpg)
