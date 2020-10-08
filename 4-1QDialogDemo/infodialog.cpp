@@ -24,16 +24,19 @@ void InfoDialog::on_okPushButton_clicked()
 
         if (ui->windowsRadioButton->isChecked())
         {
+            favouriteOS="Windows";
             qDebug()<<"You selected the Windows Radio Button";
         }
 
         if(ui->macRadioButton->isChecked())
         {
+            favouriteOS="Mac";
             qDebug()<<"You selected the Mac Radio Button";
         }
 
         if(ui->linuxRadioButton->isChecked())
         {
+            favouriteOS="Linux";
             qDebug()<<"You selected the Linux Radio Button";
         }
     }
@@ -41,10 +44,21 @@ void InfoDialog::on_okPushButton_clicked()
 
     //Return result
     accept();
+
 }
 
 void InfoDialog::on_cancelPushButton_clicked()
 {
     //Return result
     reject();
+}
+
+QString InfoDialog::getFavouriteOS() const
+{
+    return favouriteOS;
+}
+
+QString InfoDialog::getPosition() const
+{
+    return position;
 }
