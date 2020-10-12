@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>images/Actions-help-about-icon.png</file>
+        <file>images/Actions-redo-icon.png</file>
+        <file>images/Actions-undo-icon.png</file>
+        <file>images/Apps-Actions-Cut-icon.png</file>
+        <file>images/Button-Close-icon.png</file>
+        <file>images/copy-icon.png</file>
+        <file>images/Paste-icon.png</file>
+        <file>images/Qt.png</file>
+        <file>images/code-blocks-icon.png</file>
+    </qresource>
+</RCC>
