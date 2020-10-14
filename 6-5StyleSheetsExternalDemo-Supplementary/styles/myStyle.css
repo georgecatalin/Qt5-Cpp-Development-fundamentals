@@ -1,0 +1,31 @@
+QPushButton
+{
+background-color:blue;
+color:white;
+}
+
+QPushButton[text="Submit"]
+{
+background-color:gray;
+color:white;
+}
+
+QPushButton#okButton
+{
+color:green;
+}
+
+QLineEdit
+{
+padding:5px;
+border: 1px solid gray;
+border-radius:9px;
+height:20px;
+background-color:yellow;
+}
+
+QQWidget#QQWidget > QLineEdit
+{
+text-weight:bold;
+font-size:15px;
+}
